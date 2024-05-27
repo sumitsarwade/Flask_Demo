@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Welcome to the Home Page</h1>
+<p>This is the home page of our simple Flask web application.</p>
+
+<!-- Adding an image -->
+<img src="{{ url_for('static', filename='flask.png') }}" alt="Sample Image" width="300">
+
+<!-- Adding buttons -->
+<div>
+    <button onclick="location.href='/about'">About Us</button>
+    <button onclick="location.href='/contact'">Contact</button>
+</div>
+{% endblock %}
