@@ -1,0 +1,7 @@
+flask_demo/
+├── app.py
+└── templates/
+    ├── base.html
+    ├── home.html
+    ├── about.html
+    └── contact.html
